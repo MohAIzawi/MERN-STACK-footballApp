@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { AiOutlineEdit } from 'react-icons/ai'
 import { BsInfoCircle } from 'react-icons/bs'
+import { AiOutlineDelete } from 'react-icons/ai'
 import { MdOutlineAddBox, MdOutlineDelete } from 'react-icons/md'
 
 const ClubsTable = ({ clubs }) => {

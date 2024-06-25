@@ -38,10 +38,11 @@ const Home = () => {
         <button className='bg-blue-300 hover:bg-blue-600 px-4 py-1 rounded-lg'
           onClick={() => setShowType('table')}
         >Table</button>
-      </div>
+      
       <button className='bg-blue-300 hover:bg-blue-600 px-4 py-1 rounded-lg'
         onClick={() => setShowType('card')}
       >Card</button>
+      </div>
       <div className='flex justify-between items-center'>
         <h1 className='text-3xl my-4'>Club List</h1>
         <Link to='/clubs/create' className='text-blue-800 text-4xl'>
